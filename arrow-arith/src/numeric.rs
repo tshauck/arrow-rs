@@ -1449,7 +1449,7 @@ mod tests {
 
         let b = IntervalDayTimeArray::from(vec![
             IntervalDayTimeType::make_value(34, 2),
-            IntervalDayTimeType::make_value(3, -3),
+            IntervalDayTimeType::make_value(3, 3),
             IntervalDayTimeType::make_value(-12, 4),
         ]);
 
